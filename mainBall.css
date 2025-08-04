@@ -1,0 +1,19 @@
+#img1{
+   width: 485px;
+   height: 715px;
+}
+#mytitel{
+   display: inline;
+   position: absolute;
+   font-size: 45px;
+   margin-left: 1175px;
+   top : -20px
+}
+.border{
+   width: 1000px;
+   height: 700px;
+}
+.door{
+   width: 6px;
+   height: 300px;
+}

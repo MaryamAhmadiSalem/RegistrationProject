@@ -1,0 +1,130 @@
+.border{
+    position: absolute;
+    border: 1px solid #fff3df;
+    border-radius: 10px;
+    background-color: #fff3df;
+    left: 400px;
+    z-index: 2;
+}
+#img2{
+    position: absolute;
+    left: 1050px;
+}
+h1{
+    display: flex;
+    position: absolute;
+    left: 290px;
+
+}
+li{
+    position: absolute;
+    left: 760px ;
+    top: 180px ;
+}
+#label1{
+    position: absolute;
+    left: 1030px;
+    top: 275px;
+}
+#id1{
+    position: absolute;
+    background-color: #fff3df;
+    left: 825px;
+    top: 270px;
+}
+#errorLname{
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    margin-top: -410px;
+    left: 890px;
+}
+#label2{
+    position: absolute;
+    left: 635px;
+    top: 275px;
+}
+#id2{
+    position: absolute;
+    background-color: #fff3df;
+    left: 440px;
+    top: 270px;
+}
+#errorFname{
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    margin-top: -410px;
+    left: 550px;
+}
+#label3{
+    position: absolute;
+    left: 635px;
+    top: 370px;
+}
+#id3{
+    position: absolute;
+    background-color: #fff3df;
+    left: 440px;
+    top: 365px;
+}
+#errorEmail{
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    margin-top: -320px;
+    left: 510px;
+}
+#label4{
+    position: absolute;
+    left: 1025px;
+    top: 370px;
+}
+#id4{
+    position: absolute;
+    background-color: #fff3df;
+    left: 825px;
+    top: 365px;
+}
+#errorNumber{
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    margin-top: -320px;
+    left: 900px;
+}
+#label5{
+    position: absolute;
+    left: 635px;
+    top: 468px;
+}
+#id5{
+    position: absolute;
+    background-color: #fff3df;
+    left: 500px;
+    top: 462px;
+}
+#label6{
+    position: absolute;
+    left: 1020px;
+    top: 468px;
+}
+#id6{
+    position: absolute;
+    background-color: #fff3df;
+    left: 950px;
+    top: 465px;
+}
+#errorDate{
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    margin-top: -225px;
+    left: 495px;
+}
+#id7{
+    position: absolute;
+    background-color: #fff3df;
+    left : 715px;
+    top: 610px;
+}

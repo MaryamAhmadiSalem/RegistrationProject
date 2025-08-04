@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./flexBox.css">
+</head>
+<body>
+    <div class="border">
+        <h1>ثبت نام</h1>
+    </div>
+    <img id="img1" src="./1bd4423055e49126ac1d30219609195e copy.jpg">
+    <img id="img2" src="./1bd4423055e49126ac1d30219609195e copy.jpg">
+    <li dir="rtl">لطفا فرم زیر را به درستی تکمیل کنید:</li>
+    <form id="myform" >
+        <div>
+            <input dir="rtl" id="id1" type="text" name="Lname" style="height: 30px; font-size: 15px;"/>
+            <div id="errorLname"></div>
+            <label dir="rtl" id="label1">نام خانودگی:</label>
+        </div>
+        <div>
+            <input dir="rtl" id="id2" type="text" name="Fname" style="height: 30px; font-size: 15px;"/>
+            <div id="errorFname"></div>
+            <label dir="rtl" id="label2">نام:</label>
+        </div>
+        <div>
+            <input dir="rtl" id="id3" type="email" name="email" style="height: 30px; font-size: 15px;"/>
+            <div id="errorEmail"></div>
+            <label dir="rtl" id="label3">ایمیل:</label>
+        </div>
+        <div>
+            <input dir="rtl" id="id4" type="number" name="number" style="height: 30px; font-size: 15px;"/>
+            <div id="errorNumber"></div>
+            <label dir="rtl" id="label4">شماره تلفن:</label>
+        </div>
+        <div>
+            <input dir="rtl" id="id5" type="date" name="date" style="height: 30px; font-size: 15px;"/>
+            <div id="errorDate"></div>
+            <label dir="rtl" id="label5">تاریخ تولد:</label>
+        </div>
+        <div>
+            <select dir="rtl" name="gender" style=" height: 30px; width: 60px;" id="id6">
+                <option style="font-size: 20px;" value="زن">زن</option>
+                <option style="font-size: 20px;" value="مرد">مرد</option>
+            </select>
+            <div id="errorGender"></div>
+        </div>
+        <label dir="rtl" dir="rtl" id="label6">جنسیت:</label>
+        <input style="height: 40px; width: 80px; font-size: 20px;" id="id7" type="submit" value="ارسال"/>
+    </form>
+    <script src="./scriptLogin.js"></script>
+</body>
+</html>

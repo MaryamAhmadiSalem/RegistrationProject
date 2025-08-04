@@ -1,0 +1,21 @@
+.border{
+    width: 700px;
+    height: 100px;
+}
+#img1{
+    width: 445px;
+    height: 715px;
+}
+#img2{
+    width: 485px;
+    height: 715px;
+}
+h1{
+    font-size: 40px;
+}
+li{
+    font-size: 25px;
+}
+.game1 , .game2{
+    font-size: 22px;
+}
